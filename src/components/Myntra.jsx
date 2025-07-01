@@ -1,6 +1,6 @@
 import React from "react";
 
-import  {Route, BrowserRouter as Router,Routes,Link} from 'react-router-dom';
+import  { BrowserRouter as Link} from 'react-router-dom';
 
 import img1 from '../assets/women.jpeg';
 import img2 from '../assets/men.jpeg';
