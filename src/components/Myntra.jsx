@@ -1,6 +1,6 @@
 import React from "react";
 
-import  { BrowserRouter as Link} from 'react-router-dom';
+import  {Link} from 'react-router-dom';
 
 import img1 from '../assets/women.jpeg';
 import img2 from '../assets/men.jpeg';
@@ -16,12 +16,11 @@ import img4 from '../assets/shoes.jpeg';
         <div className="logo">Myntra</div>
         <div className="nav-links">
            
-             
             <Link to='/men'>Men</Link>
             <Link to="/Women">Women</Link>
             <Link to="/Kids">Kids</Link>
             <Link to="/Bags">Bags</Link>
-            
+           
            
         </div>
     </div>
