@@ -1,0 +1,34 @@
+[
+  {
+    "id": 3,
+    "name": "Boys' Graphic T-shirt & Shorts Set",
+    "price": 799,
+    "type": "Kids",
+    "description": "Comfy cotton T-shirt with fun graphic print, paired with elastic waist shorts. Perfect for summer outings.",
+    "img": "https://th.bing.com/th/id/OIP.sI4Cf4ILK7NFqqp2vnxSZwHaLH?w=123&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "id": 9,
+    "name": "Girls' Sleeveless Party Dress",
+    "price": 1499,
+    "type": "Kids",
+    "description": "Adorable sleeveless party dress with floral embellishments and flared skirt, perfect for birthdays.",
+    "img": "https://ts2.mm.bing.net/th?id=OIP.waPb82hiCpm1_Sdt8cgLQgHaLG&pid=15.1"
+  },
+  {
+    "id": 10,
+    "name": "Kids' Hooded Sweatshirt",
+    "price": 999,
+    "type": "Kids",
+    "description": "Warm hooded sweatshirt made from soft fleece, featuring a front pocket and cute cartoon print.",
+    "img": "https://th.bing.com/th/id/OIP.5QqGDqP5izZsONQUieUKGgHaLH?w=123&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "id": 11,
+    "name": "Kids'shirt",
+    "price": 500,
+    "type": "Kids",
+    "description": "Warm hooded sweatshirt made from soft fleece, featuring a front pocket and cute cartoon print.",
+    "img": "https://th.bing.com/th/id/OIP.5QqGDqP5izZsONQUieUKGgHaLH?w=123&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  }
+]

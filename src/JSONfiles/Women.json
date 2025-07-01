@@ -1,0 +1,26 @@
+[
+  {
+    "id": 2,
+    "name": "Floral Print A-Line Dress",
+    "price": 1899,
+    "type": "Women",
+    "description": "Beautiful floral A-line dress with flared hem and short sleeves, ideal for casual and party wear.",
+    "img": "https://ts4.mm.bing.net/th?id=OIP.-F3oWfp4Uxhdr8Bu2KTMjwHaKy&pid=15.1"
+  },
+  {
+    "id": 5,
+    "name": "Embroidered Kurta Set",
+    "price": 2299,
+    "type": "Women",
+    "description": "Elegant embroidered kurta with palazzo pants, perfect for festive occasions.",
+    "img": "https://th.bing.com/th/id/OIP.vZG1e8B_Jef6RgW-6KZUOwHaKx?w=135&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+  },
+  {
+    "id": 6,
+    "name": "Casual Denim Jacket",
+    "price": 1599,
+    "type": "Women",
+    "description": "Stylish blue denim jacket with front pockets and button closure, ideal for layering.",
+    "img": "https://ts3.mm.bing.net/th?id=OIP.VekOhb9YjcURhVc2OXMyBAHaMW&pid=15.1"
+  }
+]
