@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import JSONm from "../JSONfiles/Men.json";
+import JSONm from "../Men.json";
 import ProductList from "./ProductList";
 import './Products.css';
 

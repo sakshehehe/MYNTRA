@@ -6,6 +6,7 @@ import Women from '../Clothes/Women';
 import Men from '../Clothes/Men';
 import Kids from '../Clothes/Kids';
 import Myntra from "../components/Myntra";
+import Navbar from '../components/Navbar';
 
 const Routing = () => {
   return(
@@ -32,6 +33,7 @@ const Routing = () => {
           <Route path='/Women' element={<Women/>}/>
           <Route path='/Men' element={<Men/>}/>
           <Route path='/Kids' element={<Kids/>}/>
+          <Route path='/Home' element={<Navbar/>}/>
         </Routes>
         </Router>
     </div>
