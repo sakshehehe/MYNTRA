@@ -3,7 +3,7 @@ import './App.css';
 //import ProductList from './Clothes/ProductList';
  import Routing from './routing/Routing';
 
-import Myntra from './components/Myntra';
+//import Myntra from './components/Myntra';
 
 
 
