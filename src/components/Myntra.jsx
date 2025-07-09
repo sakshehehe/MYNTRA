@@ -1,6 +1,7 @@
 import React from "react";
 
-import  {Link} from 'react-router-dom';
+
+import {Link} from 'react-router-dom';
 
 import img1 from '../assets/women.jpeg';
 import img2 from '../assets/men.jpeg';
@@ -8,7 +9,7 @@ import img3 from '../assets/kids.jpeg';
 import img4 from '../assets/shoes.jpeg';
 
 
- export default function Myntra(){
+ function Myntra(){
   return(
 <div>
 
@@ -16,10 +17,11 @@ import img4 from '../assets/shoes.jpeg';
         <div className="logo">Myntra</div>
         <div className="nav-links">
            
-            <Link to='/men'>Men</Link>
+            
+            <Link to='/Men'>Men</Link>
             <Link to="/Women">Women</Link>
             <Link to="/Kids">Kids</Link>
-            <Link to="/Bags">Bags</Link>
+            
            
            
         </div>
@@ -75,3 +77,4 @@ import img4 from '../assets/shoes.jpeg';
 )
 
 }
+export default Myntra;

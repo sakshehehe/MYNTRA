@@ -22,6 +22,70 @@
     "type": "Men",
     "description": "Rugged blue denim jacket with button-up front and chest pockets. Great for layering.",
     "img": "https://th.bing.com/th/id/OIP.tku69jTu8T8LW2ajk0pHWQHaLH?w=204&h=306&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "id": 2,
+    "name": "Floral Print A-Line Dress",
+    "price": 1899,
+    "type": "Women",
+    "description": "Beautiful floral A-line dress with flared hem and short sleeves, ideal for casual and party wear.",
+    "img": "https://ts4.mm.bing.net/th?id=OIP.-F3oWfp4Uxhdr8Bu2KTMjwHaKy&pid=15.1"
+  },
+  {
+    "id": 5,
+    "name": "Embroidered Kurta Set",
+    "price": 2299,
+    "type": "Women",
+    "description": "Elegant embroidered kurta with palazzo pants, perfect for festive occasions.",
+    "img": "https://th.bing.com/th/id/OIP.vZG1e8B_Jef6RgW-6KZUOwHaKx?w=135&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+  },
+  {
+    "id": 6,
+    "name": "Casual Denim Jacket",
+    "price": 1599,
+    "type": "Women",
+    "description": "Stylish blue denim jacket with front pockets and button closure, ideal for layering.",
+    "img": "https://ts3.mm.bing.net/th?id=OIP.VekOhb9YjcURhVc2OXMyBAHaMW&pid=15.1"
+  },
+  {
+    "id": 3,
+    "name": "Boys' Graphic T-shirt & Shorts Set",
+    "price": 799,
+    "type": "Kids",
+    "description": "Comfy cotton T-shirt with fun graphic print, paired with elastic waist shorts. Perfect for summer outings.",
+    "img": "https://th.bing.com/th/id/OIP.sI4Cf4ILK7NFqqp2vnxSZwHaLH?w=123&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "id": 9,
+    "name": "Girls' Sleeveless Party Dress",
+    "price": 1499,
+    "type": "Kids",
+    "description": "Adorable sleeveless party dress with floral embellishments and flared skirt, perfect for birthdays.",
+    "img": "https://ts2.mm.bing.net/th?id=OIP.waPb82hiCpm1_Sdt8cgLQgHaLG&pid=15.1"
+  },
+  {
+    "id": 10,
+    "name": "Kids' Hooded Sweatshirt",
+    "price": 999,
+    "type": "Kids",
+    "description": "Warm hooded sweatshirt made from soft fleece, featuring a front pocket and cute cartoon print.",
+    "img": "https://th.bing.com/th/id/OIP.5QqGDqP5izZsONQUieUKGgHaLH?w=123&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "id": 11,
+    "name": "Kids'shirt",
+    "price": 500,
+    "type": "Kids",
+    "description": "Warm hooded sweatshirt made from soft fleece, featuring a front pocket and cute cartoon print.",
+    "img": "https://th.bing.com/th/id/OIP.5QqGDqP5izZsONQUieUKGgHaLH?w=123&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "id": 12,
+    "name": "Kids'dress",
+    "price": 700,
+    "type": "Kids",
+    "description": "Warm hooded sweatshirt made from soft fleece, featuring a front pocket and cute cartoon print.",
+    "img": "https://th.bing.com/th/id/OIP.wSnS79FcV6sCb8pNkLSq4QHaJ3?w=135&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
   }
 
   

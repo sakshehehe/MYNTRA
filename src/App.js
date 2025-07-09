@@ -1,18 +1,20 @@
 
 import './App.css';
-// import ProductList from './Clothes/ProductList';
-// import Routing from './routing/Routing';
-import ProductList1 from './Clothes/ProductList1';
+//import ProductList from './Clothes/ProductList';
+ import Routing from './routing/Routing';
+
+import Myntra from './components/Myntra';
+
 
 
 function App() {
   return (
     <div>
-     {/* <Myntra/> */}
+     
     
-     {/* <Routing/> */}
+     <Routing/>
      {/* <Products/> */}
-    <ProductList1/>
+   
      
      
     </div>
