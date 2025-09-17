@@ -1,10 +1,13 @@
 import React from "react";
 import './Products.css';   
-const ProductList = (prodList) => {
-  const renderList = ({prodList}) => {
-    if(prodList){
+
+// Destructure props directly
+const ProductList = ({ prodList, onAddToCart }) => {
+
+  const renderList = () => {
+    if (prodList) {
       return prodList.map((data) => { 
-        return(
+        return (
           <div key={data.id} className="card col-md-3">
             <div className="row">
               <div className="card-img">
@@ -13,24 +16,35 @@ const ProductList = (prodList) => {
               <hr/>
               <span className="topTemp">{data.name}</span>
             </div>
+
             <div className="card-body">
               <span className="max">Rs. {data.price}</span>
               <h4 className="card-title">{data.type}</h4>
               <div className="card-text">
                 <p className="day">Rs. {data.price}</p>
               </div>
+
+              {/* 🛒 Add to Cart button */}
+              <button 
+                className="btn btn-primary"
+                onClick={() => onAddToCart(data)}
+              >
+                Add to Cart
+              </button>
             </div>
           </div>
         )
       })
     }
   } 
-  return(
+
+  return (
     <div className="container">
       <div className="row">
-          {renderList(prodList)}
+        {renderList()}
       </div>
     </div>
   )
 }
+
 export default ProductList;

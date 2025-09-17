@@ -1,43 +1,43 @@
 import React from "react";
-import  {Route, BrowserRouter as Router,Routes} from 'react-router-dom';
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
-
-import Women from '../Clothes/Women';
-import Men from '../Clothes/Men';
-import Kids from '../Clothes/Kids';
+import Women from "../Clothes/Women";
+import Men from "../Clothes/Men";
+import Kids from "../Clothes/Kids";
 import Myntra from "../components/Myntra";
-import Navbar from '../components/Navbar';
+import Login from "./Login";
+import Register from "./Register";
+import Home from "./Home"; // Landing page (Login/Register options)
+import Cart from "../components/Cart";
+import {CartProvider} from "../CartContext";  // ⬅️ import context
 
 const Routing = () => {
-  return(
-    <div>
+  return (
+    <CartProvider>
       <Router>
-       {/*  <ul>
-          <li>
-            <Link to='/Home'>Home</Link>
-          </li>
-          <li>
-            <Link to='/Women'>Women</Link>
-          </li>
-          <li>
-            <Link to='/Men'>Men</Link>
-          </li>
-          <li>
-            <Link to='/Kids'>Kids</Link>
-          </li>
-        </ul> */}
-
         <Routes>
-          <Route path='/' element={<Myntra/>}/>
-          <Route path='/Home' element={<Myntra/>}/>
-          <Route path='/Women' element={<Women/>}/>
-          <Route path='/Men' element={<Men/>}/>
-          <Route path='/Kids' element={<Kids/>}/>
-          <Route path='/Home' element={<Navbar/>}/>
+          {/* Landing page (entry point) */}
+          <Route path="/" element={<Home />} />
+
+          {/* Auth pages */}
+          <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+
+          {/* After login → Myntra landing page */}
+          <Route path="/myntra" element={<Myntra />} />
+
+          {/* Category pages */}
+          <Route path="/women" element={<Women />} />
+          <Route path="/men" element={<Men />} />
+          <Route path="/kids" element={<Kids />} />
+
+          {/* Cart page */}
+          <Route path="/cart" element={<Cart />} />
         </Routes>
-        </Router>
-    </div>
-  )
-}
+      </Router>
+    </CartProvider>
+  );
+};
+
 export default Routing;
 

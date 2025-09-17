@@ -1,25 +1,30 @@
-import React, { Component } from "react";
+import React, { useContext } from "react";
 import JSONm from "../Men.json";
 import ProductList from "./ProductList";
-import './Products.css';
+import { CartContext } from "../CartContext";
+import "./Products.css";
 
-class Men extends Component {
-  constructor() {
-    super();
-    this.state = {
-      title: "Men's Products",
-      products: JSONm
-    };
-  }
+const Men = () => {
+  const { cart, addToCart } = useContext(CartContext);
 
-  render() {
-    return (
-      <div>
-        <h2>{this.state.title}</h2>
-        <ProductList prodList={this.state.products} />
-      </div>
-    );
-  }
-}
+  return (
+    <div>
+      <h2>Men's Products</h2>
+      <ProductList prodList={JSONm} onAddToCart={addToCart} />
+
+      {/* Cart display */}
+      <h3>🛒 Cart ({cart.length})</h3>
+      <ul>
+        {cart.map((item, index) => (
+          <li key={index}>
+            {item.name} - ₹{item.price}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
 
 export default Men;
+
+

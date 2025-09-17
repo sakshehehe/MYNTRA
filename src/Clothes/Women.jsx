@@ -1,25 +1,30 @@
-import React, { Component } from "react";
+import React, { useContext } from "react";
 import JSONw from "../Women.json";
 import ProductList from "./ProductList";
-import './Products.css';
+import { CartContext } from "../CartContext";  // import global context
+import "./Products.css";
 
-class Women extends Component {
-  constructor() {
-    super();
-    this.state = {
-      title: "Women's Products",
-      products: JSONw
-    };
-  }
+const Women = () => {
+  const { cart, addToCart } = useContext(CartContext);
 
-  render() {
-    return (
-      <div>
-        <h2>{this.state.title}</h2>
-        <ProductList prodList={this.state.products} />
-      </div>
-    );
-  }
-}
+  return (
+    <div>
+      <h2>Women's Products</h2>
+      <ProductList prodList={JSONw} onAddToCart={addToCart} />
+
+      {/* Show global cart items */}
+      <h3>🛒 Cart ({cart.length})</h3>
+      <ul>
+        {cart.map((item, index) => (
+          <li key={index}>
+            {item.name} - ₹{item.price}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
 
 export default Women;
+
+

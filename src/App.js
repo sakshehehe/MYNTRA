@@ -1,5 +1,6 @@
 
 import './App.css';
+import { CartProvider } from './CartContext';
 //import ProductList from './Clothes/ProductList';
  import Routing from './routing/Routing';
 
@@ -11,8 +12,9 @@ function App() {
   return (
     <div>
      
-    
+    <CartProvider>
      <Routing/>
+     </CartProvider>
      {/* <Products/> */}
    
      

@@ -1,0 +1,141 @@
+/* Reset default browser margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Homepage */
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url("https://images.pexels.com/photos/1884584/pexels-photo-1884584.jpeg?cs=srgb&dl=pexels-bohlemedia-1884584.jpg&fm=jpg")
+    no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ff3f6c; /* Myntra pink */
+  letter-spacing: 1px;
+}
+
+.nav-buttons .btn-outline {
+  margin-left: 15px;
+  padding: 8px 18px;
+  border: 2px solid #ff3f6c;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ff3f6c;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.nav-buttons .btn-outline:hover {
+  background: #ff3f6c;
+  color: white;
+}
+
+/* Hero Section */
+.hero {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding-top: 100px; /* prevents navbar overlap */
+}
+
+.hero-content {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px 60px;
+  border-radius: 12px;
+  max-width: 650px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Hero Buttons */
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background: #ff3f6c;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #e63560;
+  transform: scale(1.05);
+}
+
+.btn-outline-dark {
+  padding: 12px 25px;
+  border: 2px solid #ff3f6c;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ff3f6c;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+  background: #ff3f6c;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
