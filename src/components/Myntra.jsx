@@ -76,7 +76,7 @@ function Myntra() {
             <p>Watch</p>
           </div>
           <div className="trend-card">
-            <img src="https://cdna.lystit.com/1040/1300/n/photos/michaelkors/d3e995d8/michael-kors-LUGGAGE-Voyager-Large-Saffiano-Leather-Top-zip-Tote-Bag.jpeg" alt="Bags" />
+            <img src="https://cdna.lystit.com/photos/lncc/d92a72cd/vivienne-westwood-Black-Hazel-Small-Shoulder-Bag.jpeg" alt="Bags" />
             <p>Bags</p>
           </div>
         </div>
