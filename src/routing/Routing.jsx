@@ -8,6 +8,8 @@ import Myntra from "../components/Myntra";
 import Login from "./Login";
 import Register from "./Register";
 import Home from "./Home"; // Landing page (Login/Register options)
+import About from "../Clothes/About";
+import Contact from "../Clothes/Contact";
 import Cart from "../components/Cart";
 import {CartProvider} from "../CartContext";  // ⬅️ import context
 
@@ -33,6 +35,8 @@ const Routing = () => {
 
           {/* Cart page */}
           <Route path="/cart" element={<Cart />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </CartProvider>

@@ -1,0 +1,40 @@
+.info-page {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+  text-align: left;
+}
+
+.info-page h2 {
+  color: #ff3f6c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info-page strong {
+  color: #333;
+}
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.contact-list li {
+  margin: 12px 0;
+  font-size: 16px;
+}
+
+.contact-list a {
+  color: #ff3f6c;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
