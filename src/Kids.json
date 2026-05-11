@@ -1,42 +1,82 @@
 [
   {
-    "id": 3,
+    "id": 1,
     "name": "Boys' Graphic T-shirt & Shorts Set",
     "price": 799,
     "type": "Kids",
-    "description": "Comfy cotton T-shirt with fun graphic print, paired with elastic waist shorts. Perfect for summer outings.",
+    "description": "Comfortable cotton T-shirt with matching shorts.",
     "img": "https://th.bing.com/th/id/OIP.sI4Cf4ILK7NFqqp2vnxSZwHaLH?w=123&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
   },
   {
-    "id": 9,
+    "id": 2,
     "name": "Girls' Sleeveless Party Dress",
     "price": 1499,
     "type": "Kids",
-    "description": "Adorable sleeveless party dress with floral embellishments and flared skirt, perfect for birthdays.",
+    "description": "Beautiful sleeveless party dress with floral design.",
     "img": "https://ts2.mm.bing.net/th?id=OIP.waPb82hiCpm1_Sdt8cgLQgHaLG&pid=15.1"
   },
   {
-    "id": 10,
+    "id": 3,
     "name": "Kids' Hooded Sweatshirt",
     "price": 999,
     "type": "Kids",
-    "description": "Warm hooded sweatshirt made from soft fleece, featuring a front pocket and cute cartoon print.",
+    "description": "Soft fleece hoodie with cartoon print.",
     "img": "https://th.bing.com/th/id/OIP.5QqGDqP5izZsONQUieUKGgHaLH?w=123&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
   },
   {
-    "id": 11,
-    "name": "Kids'shirt",
-    "price": 500,
+    "id": 4,
+    "name": "Kids' Casual Shirt",
+    "price": 599,
     "type": "Kids",
-    "description": "Warm hooded sweatshirt made from soft fleece, featuring a front pocket and cute cartoon print.",
-    "img": "https://th.bing.com/th/id/OIP.5QqGDqP5izZsONQUieUKGgHaLH?w=123&h=185&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+    "description": "Stylish checked shirt for casual wear.",
+    "img": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea"
   },
   {
-    "id": 12,
-    "name": "Kids'dress",
-    "price": 700,
+    "id": 5,
+    "name": "Girls' Floral Dress",
+    "price": 899,
     "type": "Kids",
-    "description": "Warm hooded sweatshirt made from soft fleece, featuring a front pocket and cute cartoon print.",
+    "description": "Cute floral dress with soft fabric and bow design.",
     "img": "https://th.bing.com/th/id/OIP.wSnS79FcV6sCb8pNkLSq4QHaJ3?w=135&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+  },
+  {
+    "id": 6,
+    "name": "Kids' Denim Jacket",
+    "price": 1299,
+    "type": "Kids",
+    "description": "Trendy denim jacket with button closure.",
+    "img": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4"
+  },
+  {
+    "id": 7,
+    "name": "Cartoon Print Pajama Set",
+    "price": 699,
+    "type": "Kids",
+    "description": "Comfortable nightwear set with cartoon prints.",
+    "img": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f"
+  },
+  {
+    "id": 8,
+    "name": "Kids' Sports Shoes",
+    "price": 1599,
+    "type": "Kids",
+    "description": "Lightweight running shoes for active kids.",
+    "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+  },
+  {
+    "id": 9,
+    "name": "Boys' Winter Jacket",
+    "price": 1899,
+    "type": "Kids",
+    "description": "Warm padded winter jacket with hood.",
+    "img": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246"
+  },
+  {
+    "id": 10,
+    "name": "Girls' Pink Hoodie",
+    "price": 1099,
+    "type": "Kids",
+    "description": "Soft pink hoodie with front pocket.",
+    "img": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b"
   }
 ]

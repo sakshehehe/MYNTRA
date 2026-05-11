@@ -1,26 +1,82 @@
 [
   {
-    "id": 2,
+    "id": 1,
     "name": "Floral Print A-Line Dress",
     "price": 1899,
     "type": "Women",
-    "description": "Beautiful floral A-line dress with flared hem and short sleeves, ideal for casual and party wear.",
+    "description": "Beautiful floral A-line dress with flared hem and short sleeves.",
     "img": "https://ts4.mm.bing.net/th?id=OIP.-F3oWfp4Uxhdr8Bu2KTMjwHaKy&pid=15.1"
   },
   {
-    "id": 5,
+    "id": 2,
     "name": "Embroidered Kurta Set",
     "price": 2299,
     "type": "Women",
-    "description": "Elegant embroidered kurta with palazzo pants, perfect for festive occasions.",
+    "description": "Elegant embroidered kurta with palazzo pants.",
     "img": "https://th.bing.com/th/id/OIP.vZG1e8B_Jef6RgW-6KZUOwHaKx?w=135&h=198&c=7&r=0&o=5&dpr=1.3&pid=1.7"
   },
   {
-    "id": 6,
+    "id": 3,
     "name": "Casual Denim Jacket",
     "price": 1599,
     "type": "Women",
-    "description": "Stylish blue denim jacket with front pockets and button closure, ideal for layering.",
+    "description": "Stylish blue denim jacket for layering.",
     "img": "https://ts3.mm.bing.net/th?id=OIP.VekOhb9YjcURhVc2OXMyBAHaMW&pid=15.1"
+  },
+  {
+    "id": 4,
+    "name": "Pink Ruffle Top",
+    "price": 999,
+    "type": "Women",
+    "description": "Trendy pink ruffle top with puff sleeves.",
+    "img": "https://images.unsplash.com/photo-1483985988355-763728e1935b"
+  },
+  {
+    "id": 5,
+    "name": "High Waist Jeans",
+    "price": 1799,
+    "type": "Women",
+    "description": "Stretchable high-waist skinny jeans.",
+    "img": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246"
+  },
+  {
+    "id": 6,
+    "name": "Oversized Hoodie",
+    "price": 1499,
+    "type": "Women",
+    "description": "Comfortable oversized hoodie for winter wear.",
+    "img": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b"
+  },
+  {
+    "id": 7,
+    "name": "White Sneakers",
+    "price": 2499,
+    "type": "Women",
+    "description": "Classic white sneakers for everyday style.",
+    "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+  },
+  {
+    "id": 8,
+    "name": "Printed Summer Top",
+    "price": 899,
+    "type": "Women",
+    "description": "Lightweight printed top perfect for summer.",
+    "img": "https://images.unsplash.com/photo-1496747611176-843222e1e57c"
+  },
+  {
+    "id": 9,
+    "name": "Ethnic Anarkali Gown",
+    "price": 2799,
+    "type": "Women",
+    "description": "Traditional Anarkali gown with elegant embroidery.",
+    "img": "https://images.unsplash.com/photo-1610030469983-98e550d6193c"
+  },
+  {
+    "id": 10,
+    "name": "Black Leather Handbag",
+    "price": 1999,
+    "type": "Women",
+    "description": "Premium leather handbag with spacious compartments.",
+    "img": "https://images.unsplash.com/photo-1584917865442-de89df76afd3"
   }
 ]
